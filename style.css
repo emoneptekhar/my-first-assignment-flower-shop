@@ -1,0 +1,52 @@
+/* Gobal */
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.btn{
+    /* display: inline-flex; */
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #E55473;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+/* Banner section */
+.head{
+    background-color: #E554731A;
+    display: flex;
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+    justify-content: space-between;
+    /* height: 100vh; */
+}
+.banner-content{
+    width: 700px;
+}
+.bannner-image{
+    width: 600px;
+}
+.banner-content h1{
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+}
+
+.banner-content p{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
