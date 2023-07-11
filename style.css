@@ -6,9 +6,7 @@ body{
 
 }
 .btn{
-    /* display: inline-flex; */
     padding: 20px 43px;
-    align-items: flex-start;
     gap: 10px;
     border-radius: 8px;
     border: none;
@@ -16,6 +14,11 @@ body{
     font-size: 20px;
     font-weight: 700;
     color: #fff;
+}
+.feture-common{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
 }
 /* Banner section */
 .head{
@@ -34,19 +37,159 @@ body{
 }
 .banner-content h1{
     color: #272727;
-    font-family: Lato;
     font-size: 80px;
-    font-style: normal;
     font-weight: 800;
-    line-height: normal;
-    display: flex;
+
 }
 
 .banner-content p{
-    color: rgba(39, 39, 39, 0.60);
+    color: #27272799;
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+}
+
+.feture{
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 200px 0px;
+    width: 1440px;
+    margin: 0 auto;
+}
+.feture-p{
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 594px;
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+/* Feture section */
+.image{
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+    margin-top: 20px;
+    margin: 0 auto;
+    
+}
+
+.feture-image1, .feture-image2, .feture-image3{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 310px;
+    height: 310px;
+    display: block;
+    
+}
+.feture-image1 {
+    background-color: #A7216226;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.feture-image1 img{
+    padding-top: 40px ;
+    height: 270px;
+    width: auto;
+   
+}
+.feture-image2{
+    background-color: #A7216226;
+   
+}
+.feture-image2 img{
+    padding-top: 40px ;
+    height: 270px;
+    width: auto;
+  
+
+}
+
+.feture-image3{
+    background-color: #A7216226;
+   
+}
+   
+.feture-image3 img{
+    padding-top: 40px ;
+    height: 270px;
+    width: auto;
+   
+}
+
+.img-text{
+    margin: 10px;
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+
+/* Service section */
+
+.service{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 1440px;
+    background-color: #0301010d;
+    border-radius: 8px;
+    padding: 80px 0px;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+
+}
+/* hot-deal section */
+
+.hot-deal{
+
+    display: flex;
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E554730D;
+    margin-top: 128px;
+    
+    
+}
+.feture-common span{
+    color: #E55473;
+}
+.hot-deal-contain{
+    width: 594px;
+    align-items: center;
+    text-align: center;
+}
+
+/* insta section */
+.insta-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.insta-content p{
+    width: 594px;
+  
+}
+
+.insta-image{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 }
