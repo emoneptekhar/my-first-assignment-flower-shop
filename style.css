@@ -108,7 +108,7 @@ body{
    
 }
 .feture-image2{
-    background-color: #A7216226;
+    background-color: #0597A026;
    
 }
 .feture-image2 img{
@@ -120,7 +120,7 @@ body{
 }
 
 .feture-image3{
-    background-color: #A7216226;
+    background-color: #477D1126;
    
 }
    
@@ -259,6 +259,57 @@ body{
     color: #27272799;
 }
 
+/* Blog Section */
+.blog{
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.blog-items{
+    text-align: center;
+    
+    
+}
+.blog-items p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #27272799;
+}
+.main-blog{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.blog-container img{
+    height: auto;
+    width: 100%;
+}
+.blog-text{
+    margin-top: -24px;
+    background-color: #E55473;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+.blog-text h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.blog-text p{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    
+}
+.blog-text span{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: underline;
+}
 /* footer section */
 .footer{
     display: flex;
