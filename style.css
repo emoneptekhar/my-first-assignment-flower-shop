@@ -27,13 +27,18 @@ body{
     padding: 30px 30px 0px 150px;
     align-items: center;
     justify-content: space-between;
-    /* height: 100vh; */
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+    
 }
 .banner-content{
     width: 700px;
 }
-.bannner-image{
-    width: 600px;
+.bannner-image img{
+    width: 635px;
+    height: 800px;
+    margin-bottom: -117px;
 }
 .banner-content h1{
     color: #272727;
@@ -44,11 +49,10 @@ body{
 
 .banner-content p{
     color: #27272799;
-    font-family: Lato;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    width: 664px;
 }
 
 .feture{
@@ -128,13 +132,13 @@ body{
 .img-text{
     margin: 10px;
     color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 35px;
-text-decoration-line: underline;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
 
 /* Service section */
@@ -152,6 +156,13 @@ text-decoration-line: underline;
     text-align: center;
 
 }
+.service p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    color: #272727CC;
+}
 /* hot-deal section */
 
 .hot-deal{
@@ -162,10 +173,16 @@ text-decoration-line: underline;
     background-color: #E554730D;
     margin-top: 128px;
     
-    
 }
 .feture-common span{
     color: #E55473;
+}
+.hot-deal-contain p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #27272799;
 }
 .hot-deal-contain{
     width: 594px;
@@ -193,6 +210,7 @@ text-decoration-line: underline;
     line-height: 30px;
     margin-top: 0px;
     margin-bottom: 40px;
+    color: #27272799;
   
 }
 
