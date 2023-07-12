@@ -23,6 +23,8 @@ body{
 /* Banner section */
 .head{
     background-color: #E554731A;
+
+
     display: flex;
     padding: 30px 30px 0px 150px;
     align-items: center;
@@ -228,13 +230,14 @@ body{
     background-repeat: no-repeat;
     width: 1440px;
     margin: 0 auto;
+    border-radius: 8px;
 }
 
 .Subcribe{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 264px;
+    padding-top: 121px;
     padding-bottom: 121px;
     margin-top: 120px;
 }
@@ -255,17 +258,16 @@ body{
     font-weight: 400;
     color: #27272799;
 }
-.sub-container form{
 
-}
 /* footer section */
 .footer{
     display: flex;
     justify-content: center;
     text-align: center;
     background-color: #111010;
-    padding-top: 200px;
+    padding-top: 128px;
     padding-bottom: 128px;
+    margin-top: 120px;
 
 }
 .footer-container h2{
