@@ -155,7 +155,6 @@ text-decoration-line: underline;
 /* hot-deal section */
 
 .hot-deal{
-
     display: flex;
     padding: 30px 30px 0px 150px;
     align-items: center;
@@ -175,6 +174,9 @@ text-decoration-line: underline;
 }
 
 /* insta section */
+.instra{
+    padding-top: 120px;
+}
 .insta-content{
     text-align: center;
     display: flex;
@@ -185,6 +187,12 @@ text-decoration-line: underline;
 
 .insta-content p{
     width: 594px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 0px;
+    margin-bottom: 40px;
   
 }
 
