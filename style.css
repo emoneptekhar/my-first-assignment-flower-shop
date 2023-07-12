@@ -168,12 +168,20 @@ body{
 /* hot-deal section */
 
 .hot-deal{
-    display: flex;
-    padding: 30px 30px 0px 150px;
-    align-items: center;
-    justify-content: space-between;
+    
+    padding: 30px 0px;
     background-color: #E554730D;
     margin-top: 128px;
+    
+}
+.hot-deal-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 1440px;
+    margin: 0 auto;
+    
     
 }
 .feture-common span{
